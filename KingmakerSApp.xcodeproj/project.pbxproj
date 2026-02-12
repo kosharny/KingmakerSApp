@@ -6,6 +6,13 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		DD91AD862F3E2768008AEEBC /* FirebaseAnalyticsCore in Frameworks */ = {isa = PBXBuildFile; productRef = DD91AD852F3E2768008AEEBC /* FirebaseAnalyticsCore */; };
+		DD91AD882F3E2768008AEEBC /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = DD91AD872F3E2768008AEEBC /* FirebaseAuth */; };
+		DD91AD8A2F3E2768008AEEBC /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = DD91AD892F3E2768008AEEBC /* FirebaseFirestore */; };
+		DD91AD8C2F3E2768008AEEBC /* FirebaseMessaging in Frameworks */ = {isa = PBXBuildFile; productRef = DD91AD8B2F3E2768008AEEBC /* FirebaseMessaging */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		DD91AD762F3E26D1008AEEBC /* KingmakerSApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KingmakerSApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -23,6 +30,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DD91AD8C2F3E2768008AEEBC /* FirebaseMessaging in Frameworks */,
+				DD91AD862F3E2768008AEEBC /* FirebaseAnalyticsCore in Frameworks */,
+				DD91AD882F3E2768008AEEBC /* FirebaseAuth in Frameworks */,
+				DD91AD8A2F3E2768008AEEBC /* FirebaseFirestore in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +76,10 @@
 			);
 			name = KingmakerSApp;
 			packageProductDependencies = (
+				DD91AD852F3E2768008AEEBC /* FirebaseAnalyticsCore */,
+				DD91AD872F3E2768008AEEBC /* FirebaseAuth */,
+				DD91AD892F3E2768008AEEBC /* FirebaseFirestore */,
+				DD91AD8B2F3E2768008AEEBC /* FirebaseMessaging */,
 			);
 			productName = KingmakerSApp;
 			productReference = DD91AD762F3E26D1008AEEBC /* KingmakerSApp.app */;
@@ -94,6 +109,9 @@
 			);
 			mainGroup = DD91AD6D2F3E26D1008AEEBC;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				DD91AD842F3E2768008AEEBC /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = DD91AD772F3E26D1008AEEBC /* Products */;
 			projectDirPath = "";
@@ -256,11 +274,13 @@
 				DEVELOPMENT_TEAM = 7SJ46G89S2;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSUserTrackingUsageDescription = "We use data to display personalized content tailored to your preferences and interests, improving your overall experience within the application.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -269,12 +289,16 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.kosharny.KingmakerSApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -288,11 +312,13 @@
 				DEVELOPMENT_TEAM = 7SJ46G89S2;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSUserTrackingUsageDescription = "We use data to display personalized content tailored to your preferences and interests, improving your overall experience within the application.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -301,12 +327,16 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.kosharny.KingmakerSApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -332,6 +362,40 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		DD91AD842F3E2768008AEEBC /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 12.9.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		DD91AD852F3E2768008AEEBC /* FirebaseAnalyticsCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DD91AD842F3E2768008AEEBC /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalyticsCore;
+		};
+		DD91AD872F3E2768008AEEBC /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DD91AD842F3E2768008AEEBC /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		DD91AD892F3E2768008AEEBC /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DD91AD842F3E2768008AEEBC /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		DD91AD8B2F3E2768008AEEBC /* FirebaseMessaging */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DD91AD842F3E2768008AEEBC /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseMessaging;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = DD91AD6E2F3E26D1008AEEBC /* Project object */;
 }
