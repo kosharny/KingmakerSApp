@@ -1,0 +1,218 @@
+[
+  {
+    "id": "Q1",
+    "title": "The Vigil of Preparation",
+    "description": "Before the crown comes the vigil. Cleanse your mind and prepare your spirit for the responsibilities ahead.",
+    "steps": [
+      "Spend 1 hour in complete silence, disconnected from all technology.",
+      "Write down your three core values that will guide your rule.",
+      "Identify one fear that holds you back and write a plan to confront it.",
+      "Perform a physical act of cleansing (e.g., a cold shower or deep cleaning your space).",
+      "Read a biography of a leader you admire.",
+      "Make a solemn vow to yourself to pursue mastery in your chosen field."
+    ],
+    "imageName": "vigil_night",
+    "category": "Virtue",
+    "isCompleted": false,
+    "currentStep": 0,
+    "isFavorite": false
+  },
+  {
+    "id": "Q2",
+    "title": "Knowing the Law",
+    "description": "A sovereign must know the rules better than anyone else. Master the fundamentals of your domain.",
+    "steps": [
+      "Identify the foundational text or manual of your profession/craft.",
+      "Read one chapter or section and summarize it in your own words.",
+      "Find a mentor or expert and ask them one deep question about the 'rules' of your field.",
+      "Teach a fundamental concept to a beginner.",
+      "Identify a rule you can validly break only after you have mastered it.",
+      "Create a 'Constitution' for your daily routine."
+    ],
+    "imageName": "study_of_law",
+    "category": "Wisdom",
+    "isCompleted": false,
+    "currentStep": 0,
+    "isFavorite": false
+  },
+  {
+    "id": "Q3",
+    "title": "The Voice of Command",
+    "description": "Develop the ability to speak with authority and clarity.",
+    "steps": [
+      "Record yourself speaking for 3 minutes about a topic you know well.",
+      "Listen to the recording and identify filler words (um, like, ah) to eliminate.",
+      "Practice a difficult conversation you need to have in front of a mirror.",
+      "Read a famous speech out loud (e.g., Churchill, MLK) focusing on cadence.",
+      "Engage in a conversation where you listen twice as much as you speak.",
+      "Deliver a clear, concise instruction to a team member or peer."
+    ],
+    "imageName": "voice_training",
+    "category": "Power",
+    "isCompleted": false,
+    "currentStep": 0,
+    "isFavorite": false
+  },
+  {
+    "id": "Q4",
+    "title": "The Art of Alliances",
+    "description": "No ruler rules alone. Build your court and strengthen your network.",
+    "steps": [
+      "Identify three people who are 'allies' in your personal growth.",
+      "Reach out to one ally and express genuine gratitude for their support.",
+      "Introduce two people in your network who would benefit from knowing each other.",
+      "Identify a 'competitor' or rival and find one thing to sincerely admire about them.",
+      "Host a small gathering (or virtual meet) to bring your 'court' together.",
+      "Forgive a past grievance to clear the air and strengthen a relationship."
+    ],
+    "imageName": "diplomacy_table",
+    "category": "Court",
+    "isCompleted": false,
+    "currentStep": 0,
+    "isFavorite": false
+  },
+  {
+    "id": "Q5",
+    "title": "Building the Inner Fortress",
+    "description": "Strengthen your emotional resilience against the storms of leadership.",
+    "steps": [
+      "Identify a recent situation where you lost your cool.",
+      "Analyze the trigger and write down a better response for next time.",
+      "Practice a 'stoic pause' – wait 5 seconds before responding to a provocation.",
+      "Do a physical workout that pushes you to your mental limit.",
+      "Write a 'disaster plan' for a worst-case scenario in your life.",
+      "Meditate on the impermanence of both praise and criticism."
+    ],
+    "imageName": "inner_fortress",
+    "category": "Virtue",
+    "isCompleted": false,
+    "currentStep": 0,
+    "isFavorite": false
+  },
+  {
+    "id": "Q6",
+    "title": "Planting the Legacy",
+    "description": "True power is what you leave behind. Begin your contribution to the future.",
+    "steps": [
+      "Define what you want your legacy to be in one sentence.",
+      "Plant a literal plant or tree, or start a long-term project.",
+      "Mentor someone younger or less experienced than you.",
+      "Donate time or money to a cause that aligns with your values.",
+      "Write a letter to your future self (10 years from now).",
+      "Create something (art, code, writing) and share it publicly."
+    ],
+    "imageName": "legacy_tree",
+    "category": "Virtue",
+    "isCompleted": false,
+    "currentStep": 0,
+    "isFavorite": false
+  },
+  {
+    "id": "Q7",
+    "title": "The Feast of Strangers",
+    "description": "Expand your influence by engaging with the unknown.",
+    "steps": [
+      "Attend an event or gathering where you know no one.",
+      "Initiate a conversation with a complete stranger.",
+      "Ask three open-ended questions to learn their story.",
+      "Find a way to offer value to them (advice, a connection, a compliment).",
+      "Exchange contact information to build a bridge.",
+      "Follow up within 24 hours to cement the alliance."
+    ],
+    "imageName": "banquet_hall",
+    "category": "Court",
+    "isCompleted": false,
+    "currentStep": 0,
+    "isFavorite": false
+  },
+  {
+    "id": "Q8",
+    "title": "The Tower of Silence",
+    "description": "Master your mind through the discipline of stillness.",
+    "steps": [
+      "Find a quiet space where you will not be disturbed.",
+      "Sit in a comfortable posture and set a timer for 10 minutes.",
+      "Focus solely on your breath; do not follow your thoughts.",
+      "When your mind wanders, gently bring it back to the breath.",
+      "Extend the practice to 15 minutes the next day.",
+      "Journal your experience immediately after the session."
+    ],
+    "imageName": "meditation_tower",
+    "category": "Wisdom",
+    "isCompleted": false,
+    "currentStep": 0,
+    "isFavorite": false
+  },
+  {
+    "id": "Q9",
+    "title": "The Royal Decree",
+    "description": "Practice the art of decisive action.",
+    "steps": [
+      "Identify a decision you have been procrastinating on.",
+      "Set a deadline of one hour to gather necessary information.",
+      "Weigh the pros and cons, then make a choice.",
+      "Write down your decision as a formal 'Decree'.",
+      "Take the first irreversible step toward execution immediately.",
+      "Accept the consequences without looking back."
+    ],
+    "imageName": "royal_seal",
+    "category": "Power",
+    "isCompleted": false,
+    "currentStep": 0,
+    "isFavorite": false
+  },
+  {
+    "id": "Q10",
+    "title": "The Shield of Charity",
+    "description": "Power is justified by service. Give back to the realm.",
+    "steps": [
+      "Identify a local charity or community need.",
+      "Dedicate at least 2 hours of your time to volunteer.",
+      "Or, make a meaningful financial donation that requires sacrifice.",
+      "Perform an anonymous act of kindness for a neighbor or colleague.",
+      "Mentor someone who cannot pay you back.",
+      "Reflect on how giving changes your relationship with power."
+    ],
+    "imageName": "shield_charity",
+    "category": "Virtue",
+    "isCompleted": false,
+    "currentStep": 0,
+    "isFavorite": false
+  },
+  {
+    "id": "Q11",
+    "title": "The Map of the Realm",
+    "description": "Strategic planning for your long-term vision.",
+    "steps": [
+      "Take a large sheet of paper or a whiteboard.",
+      "Draw a 'map' of your life: Career, Health, Relationships, Spirit.",
+      "Mark your current location in each territory.",
+      "Mark your destination (your 5-year vision).",
+      "Draw the path connecting them, noting obstacles (mountains) and resources (rivers).",
+      "Identify the single most critical next step for the journey."
+    ],
+    "imageName": "war_room_map",
+    "category": "Power",
+    "isCompleted": false,
+    "currentStep": 0,
+    "isFavorite": false
+  },
+  {
+    "id": "Q12",
+    "title": "The Heir's Lesson",
+    "description": "Secure your legacy by teaching what you know.",
+    "steps": [
+      "Choose a skill or lesson you have mastered.",
+      "Create a simple curriculum or guide (written or video).",
+      "Find a student or audience who needs this knowledge.",
+      "Deliver a teaching session or share your guide.",
+      "Ask for feedback to improve your instruction.",
+      "Commit to sharing one piece of wisdom every week."
+    ],
+    "imageName": "teaching_scroll",
+    "category": "Wisdom",
+    "isCompleted": false,
+    "currentStep": 0,
+    "isFavorite": false
+  }
+]
