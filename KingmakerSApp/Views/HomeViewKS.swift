@@ -182,6 +182,7 @@ struct FeaturedCardKS: View {
                         .resizable()
                         .aspectRatio(contentMode: .fill)
                         .frame(height: 150)
+                        .clipShape(UnevenRoundedRectangle(topLeadingRadius: 20, topTrailingRadius: 20))
                         .clipped()
                         .overlay(
                             LinearGradient(
@@ -223,6 +224,7 @@ struct FeaturedCardKS: View {
                 .padding()
             }
             .padding(-16) // Negate specific GlassCard padding to make image full width
+            .clipShape(RoundedRectangle(cornerRadius: 20))
         }
     }
 }
