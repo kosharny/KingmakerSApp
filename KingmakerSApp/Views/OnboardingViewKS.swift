@@ -32,40 +32,44 @@ struct OnboardingViewKS: View {
             VStack(spacing: 40) {
                 TabView(selection: $currentPage) {
                     ForEach(0..<pages.count, id: \.self) { index in
-                        VStack(spacing: 30) {
-                            // Image Implementation
-                            if let imageName = pages[index].imageName {
-                                Image(imageName)
-                                    .resizable()
-                                    .scaledToFill()
-                                    .frame(height: 250)
-                                    .clipShape(RoundedRectangle(cornerRadius: 20))
-                                    .shadow(color: colors.glowColor.opacity(0.3), radius: 10)
-                                    .padding(.horizontal)
-                            } else {
-                                // Fallback if image missing
-                                Image(systemName: "crown.fill")
-                                    .font(.system(size: 80))
-                                    .foregroundColor(colors.primaryAccent)
+                        ScrollView(showsIndicators: false) {
+                            VStack(spacing: 20) {
+                                // Image Implementation
+                                if let imageName = pages[index].imageName {
+                                    Image(imageName)
+                                        .resizable()
+                                        .scaledToFill()
+                                        .frame(height: 220)
+                                        .clipShape(RoundedRectangle(cornerRadius: 20))
+                                        .shadow(color: colors.glowColor.opacity(0.3), radius: 10)
+                                        .padding(.horizontal)
+                                } else {
+                                    // Fallback if image missing
+                                    Image(systemName: "crown.fill")
+                                        .font(.system(size: 80))
+                                        .foregroundColor(colors.primaryAccent)
+                                }
+                                
+                                Text(pages[index].title)
+                                    .font(.title2)
+                                    .fontWeight(.bold)
+                                    .foregroundColor(colors.textPrimary)
+                                    .multilineTextAlignment(.center)
+                                
+                                Text(pages[index].description)
+                                    .font(.body)
+                                    .foregroundColor(colors.textSecondary)
+                                    .multilineTextAlignment(.center)
+                                    .padding(.horizontal, 30)
+                                    .padding(.bottom, 20)
                             }
-                            
-                            Text(pages[index].title)
-                                .font(.title)
-                                .fontWeight(.bold)
-                                .foregroundColor(colors.textPrimary)
-                                .multilineTextAlignment(.center)
-                            
-                            Text(pages[index].description)
-                                .font(.body)
-                                .foregroundColor(colors.textSecondary)
-                                .multilineTextAlignment(.center)
-                                .padding(.horizontal, 40)
+                            .padding(.top, 20)
                         }
                         .tag(index)
                     }
                 }
                 .tabViewStyle(.page(indexDisplayMode: .always))
-                .indexViewStyle(.page(backgroundDisplayMode: .always))
+                .indexViewStyle(.page(backgroundDisplayMode: .never))
                 
                 if currentPage < pages.count - 1 {
                         Button(action: {
